@@ -194,6 +194,6 @@ int open_listenfd(char *port);
 int Open_clientfd(char *hostname, char *port);
 int Open_listenfd(char *port);
 
-
+#include "../src/csapp.c"
 #endif /* __CSAPP_H__ */
 /* $end csapp.h */
